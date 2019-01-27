@@ -1,0 +1,15 @@
+.technology {
+    max-width: 300px;
+}
+
+.technology h3 {
+    text-transform: uppercase;
+}
+
+.technology p {
+    color: #8994A0;
+}
+
+.img-tech {
+    width: 80px;
+}

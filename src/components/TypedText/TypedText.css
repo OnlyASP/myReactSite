@@ -1,0 +1,21 @@
+.label-typed {
+    position: fixed;
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    padding-left: 50px;
+
+}
+
+.title-typed {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    grid-column: 2/3;
+}
+
+.text-typed {
+    font-size: 22px;
+    grid-column: 2/3;
+}

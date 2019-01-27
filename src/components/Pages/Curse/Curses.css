@@ -1,0 +1,7 @@
+.curses {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+    grid-template-columns: 1fr 1fr;
+}
+
+/* при медиа запросе 1080 в 1 фракцию */

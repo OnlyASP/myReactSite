@@ -1,0 +1,13 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* width:240px; */
+    height: 100%;
+
+    background-color: rgb(61, 68, 78);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+
+    overflow: hidden;
+    transition: 0.5s;
+}

@@ -1,0 +1,81 @@
+/*иконки навигации*/
+
+.logo {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo-name {
+    font-size: 20px;
+    padding-left: 17px;
+}
+
+.img-logo {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+}
+
+.img-icon {
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+}
+
+/*Клетка навигации*/
+
+.nav-cell {
+    height: 50px;
+    display: flex;
+    margin-top: 1px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.target {
+    width: 100%;
+    border-left: 3px solid #595ef7;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/*Кнопка навигации*/
+
+.nav-btn {
+    height: 50px;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    border: none;
+    background-color: inherit;
+    color: rgba(255, 255, 255, 0.8);
+
+    font-size: 30px; 
+    transition: all 0.5s ease; 
+}
+
+.hide-btn {
+    text-align: end;
+}
+
+.open-btn {
+    text-align: start;
+}
+
+.nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.nav-btn:active {
+    background-color: inherit;
+}
+
+.active {
+    transition: all 0.5s ease;
+    display: none;
+}

@@ -1,0 +1,19 @@
+.address {
+    margin: 10px 28px;
+}
+
+.address-group {
+    display: flex;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.social-icon {
+    padding-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.social span {
+    color: #2477FF;
+}

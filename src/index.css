@@ -1,0 +1,28 @@
+/*Общие стили*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+  /* font-family: 'Arimo', sans-serif; */
+  /* font-family: 'Ubuntu', sans-serif; */
+  height: 100%;
+  color: #dddddd;
+  box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #dddddd;
+}
+
+h4, h5 {
+  text-transform: capitalize;
+  font-weight: 100;
+  padding-right: 15px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}

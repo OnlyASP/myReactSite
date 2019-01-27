@@ -1,0 +1,19 @@
+.curse {
+    padding: 20px 30px;
+    line-height: 10px;
+}
+
+.curse h3 {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.curse span {
+    color: #5E666E;
+}
+
+.curse p {
+    color: #8994A0;
+    text-align: justify;
+    line-height: 30px;
+}

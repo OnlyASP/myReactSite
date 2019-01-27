@@ -1,0 +1,68 @@
+.submit-form {
+    margin: 10px 28px;
+}
+
+.form-group {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.form-control {
+    height: 30px;
+    background-color: #333841;
+    border: 1px solid #515A68;
+    color: #dddddd;
+    outline: none;
+}
+
+.form-control:focus {
+    border: 1px solid #3077E3;
+}
+
+::-webkit-input-placeholder {
+    color:#5F697A;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+::-moz-placeholder {
+    color:#5F697A;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+:-moz-placeholder {
+    color:#5F697A;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+:-ms-input-placeholder {
+    color:#5F697A;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.area-control {
+    height: 120px;
+}
+
+.btn-submit {
+    height: 50px;
+    width: 200px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: inherit;
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    
+}
+
+.btn-submit:hover {
+    background-color: #3077F9;
+    border-color: #3077F9;
+}

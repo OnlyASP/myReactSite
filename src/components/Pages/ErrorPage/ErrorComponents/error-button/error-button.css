@@ -1,0 +1,14 @@
+.error-button {
+    background-color: rgba(255, 0, 0, 0.3);
+    width: 200px;
+    height: 40px;;
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.error-button:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+}
